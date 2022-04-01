@@ -1,14 +1,13 @@
-//////////////////////// MATEUSZ GABRYEL NR INDEKSU 181329 ///////////////////////////////////////////////
+////////////////////////////////////////// MATEUSZ GABRYEL ///////////////////////////////////////////////
 #include <algorithm>
 #include <cctype>
 #include <fstream>
 #include <iostream>
 #include <string>
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
 using namespace std;
 //////////////////////////////////////// MAIN ////////////////////////////////////////////////////////////
 int main() {
-	//setlocale(LC_ALL, "pl-PL.UTF-8");
 	
 	string linia;
 	string tekst_do_zamiany;
@@ -18,8 +17,6 @@ int main() {
 	string NazwaPliku_2;
 	string NazwaPliku_3;
 	
-	cout<<"-----------------------------------------------------"<<endl;
-	cout<<"          Mateusz Gabryel nr indeksu: 181329         "<<endl;
 	cout<<"-----------------------------------------------------"<<endl;
 	cout<<"Podaj nazw\251 pliku z pocz\245tkowym tekstem: "<<endl;
 	cin >>NazwaPliku_1;
@@ -51,7 +48,7 @@ int main() {
 
 	int ilosc_wierszy = 0;
 
-////////////////////////////// WCZYTYWANIE PLIKU ZE S�OWAMI DO ZAMIANY ///////////////////////////////////
+////////////////////////////// WCZYTYWANIE PLIKU ZE SŁOWAMI DO ZAMIANY ///////////////////////////////////
 
 	plikDoZamiany.open(NazwaPliku_2, ios::in);
 	while (!plikDoZamiany.eof()) {				       // Zliczenie ilosci wierszy -> ilosc slow do zamiany.
