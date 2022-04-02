@@ -119,7 +119,7 @@ int main() {
 
 ////////////////////////////////////// ZAPISYWANIE DO NOWEGO PLIKU ///////////////////////////////////////
 	plikDoZapisu.open(NazwaPliku_3,ios::out);
-	plikDoZapisu<<tekst_do_zamiany;											// Wczytanie zmiennej do pliku.
+	plikDoZapisu<<tekst_do_zamiany;									// Wczytanie zmiennej do pliku.
 	plikDoZapisu.close();
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 	cout<<"+++++++++++++++++++++++++++++++++++++++++++++++++++++"<<endl;
